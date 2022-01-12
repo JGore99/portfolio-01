@@ -7,11 +7,11 @@ export default function Layout({ children, pageTitle, ...props }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Josh Seckman Portfolio" />
+        <meta name="description" content="Jeff Gore Portfolio" />
         <meta
           name="title"
           property="og:title"
-          content="Josh Seckman Portfolio"
+          content="Jeff Gore Portfolio"
         />
         <meta property="og:type" content="_" />
         <meta
@@ -24,8 +24,8 @@ export default function Layout({ children, pageTitle, ...props }) {
           property="og:description"
           content="Josh Seckman Portfolio"
         />
-        <meta name="author" content="Josh Seckman" />
-        <title>Josh Seckman | Full Stack Software Engineer</title>
+        <meta name="author" content="Jeff Gore" />
+        <title>Jeff Gore | Full Stack Software Engineer</title>
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
           rel="stylesheet"
