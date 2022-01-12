@@ -10,117 +10,48 @@ const Index = ({ allMD }) => {
     <Layout>
       <div className="container">
         <main>
-          <section id="skills">
-            <h3 className="title">SKILLS</h3>
-            <div className="skills-container">
-              <div className="skill">
-                <img src="https://img.icons8.com/color/72/000000/html-5.png" />
-                <p>HTML 5</p>
-              </div>
-              <div className="skill">
-                <img src="https://img.icons8.com/color/72/000000/css3.png" />
-                <p>CSS 3</p>
-              </div>
-              <div className="skill">
-                <img src="https://img.icons8.com/color/72/000000/javascript.png" />
-                <p>JavaScript</p>
-              </div>
-              <div className="skill">
-                <img src="https://img.icons8.com/fluency/72/000000/python.png" />
-                <p>Python</p>
-              </div>
-              <div className="skill">
-                <img src="https://img.icons8.com/color/72/000000/react-native.png" />
-                <p>React</p>
-              </div>
-              <div className="skill">
-                <i class="devicon-nodejs-plain colored"></i>
-                <p>Node.js</p>
-              </div>
-              <div className="skill">
-                <i class="devicon-git-plain-wordmark colored"></i>
-                <p>git</p>
-              </div>
-              <div className="skill">
-                <img src="https://img.icons8.com/color/72/000000/mongodb.png" />
-                <p>MongoDB</p>
-              </div>
-              <div className="skill">
-                <img src="https://img.icons8.com/color/72/000000/postgreesql.png" />
-                <p>PostgreSQL</p>
-              </div>
-              <div className="skill">
-              <img src="https://img.icons8.com/ios/72/000000/django.png"/>
-                <p>Django</p>
-              </div>
-              <div className="skill">
-                <i class="devicon-express-original colored"></i>
-                <p>Express</p>
-              </div>
-              <div className="skill">
-                <img src="https://img.icons8.com/color/72/000000/java-web-token.png" />
-                <p>JWT Token</p>
-              </div>
-              <div className="skill">
-                <img src="https://img.icons8.com/color/72/000000/google-logo.png" />
-                <p>Google OAuth2</p>
-              </div>
-            </div>
-          </section>
-
-          <hr />
-
           <section id="projects">
             <h3 className="title">PROJECTS</h3>
             <div className="project-container">
-              <div class="card mb-3">
+              <div class="card mb-4">
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <img
-                      src="/images/studiosixtwo.png"
+                      src="/images/connect_four_01.png"
                       class="card-img"
-                      alt="StudioSixTwo"
+                      alt="Connect Four"
                     />
                   </div>
                   <div class="col-md-6">
                     <div class="card-body">
                       <div>
-                        <h3 class="card-title">Studio SixTwo</h3>
-                        <p class="card-text">A simple E-Commerce Store</p>
+                        <h3 class="card-title">Connect Four</h3>
+                        <p class="card-text">A browser based version of the classic game Connect Four. Designed to mimmic the box art from the 1980s, and to invoke the feelings and memories of playing this game as a child!</p>
                       </div>
                       <hr />
                       <div className="tech-used">
-                        <div className="skill">
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/html-5.png"/>
+                          <p>HTML 5</p>
+                        </div>
+                        <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/javascript.png" />
                           <p>JavaScript</p>
                         </div>
-                        <div className="skill">
-                          <img src="https://img.icons8.com/color/60/000000/react-native.png" />
-                          <p>React</p>
-                        </div>
-
-                        <div className="skill">
-                          <img src="https://img.icons8.com/color/60/000000/ruby-programming-language.png" />
-                          <p>Ruby</p>
-                        </div>
-                        <div className="skill">
-                          <i class="devicon-rails-plain-wordmark colored"></i>
-                          <p>Rails</p>
-                        </div>
-                        <div className="skill">
-                          <img src="https://img.icons8.com/color/60/000000/postgreesql.png" />
-                          <p>PostgreSQL</p>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/css3.png"/>
+                          <p>CSS 3</p>
                         </div>
                       </div>
                       <hr />
                       <div className="github-live-links">
                         <a
-                          href="https://github.com/jseckman90/shop_frontend"
+                          href="https://github.com/JGore99/connect-four"
                           target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
                         <a
-                          href="https://silly-wilson-57fd79.netlify.app/"
+                          href="https://jgore99.github.io/connect-four/"
                           target="_blank">
                           <i class="fas fa-globe-americas"></i>
                         </a>
@@ -133,56 +64,55 @@ const Index = ({ allMD }) => {
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <img
-                      src="/images/halloweenpicks.png"
+                      src="/images/the_vinyl_project.png"
                       class="card-img"
-                      alt="StudioSixTwo"
+                      alt="The Vinyl Project"
                     />
                   </div>
                   <div class="col-md-6">
                     <div class="card-body">
                       <div>
-                        <h3 class="card-title">Halloween Picks</h3>
+                        <h3 class="card-title">The Vinyl Project</h3>
                         <p class="card-text">
-                          Halloween Picks is an app made to make family (or
-                          friend or date!) nights easier to plan and therefor
-                          enjoy. The app picks three major picks for your night:
-                          your cocktail, your snacks, and your movie. This way
-                          you spend less time discussing what everyone wants,
-                          and more time enjoying each other's company.
+                        The Vinyl Project utilizes the Discogs API to create a full stack, social media application, focused on record collecting. Once users have created an account, they can search for, and add records to their collections. They can see track lists, and album art, thanks to the API. Users can leave comments and recommendations about records, and follow other user, to see what records they are collecting and enjoying. 
                         </p>
                       </div>
                       <hr />
                       <div className="tech-used">
-                        <div className="skill">
-                          <img src="https://img.icons8.com/color/60/000000/css3.png" />
-                          <p>CSS 3</p>
-                        </div>
-                        <div className="skill">
+                        <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/javascript.png" />
                           <p>JavaScript</p>
                         </div>
-                        <div className="skill">
-                          <img src="https://img.icons8.com/color/60/000000/react-native.png" />
-                          <p>React</p>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/css3.png" />
+                          <p>CSS 3</p>
                         </div>
-                        <div className="skill">
+                        <div className="card-skill">
                           <i class="devicon-express-original colored"></i>
                           <p>Express</p>
                         </div>
-                        <div className="skill">
+                        <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/mongodb.png" />
                           <p>MongoDB</p>
                         </div>
+                        <div className="card-skill">
+                          <i class="devicon-nodejs-plain colored"></i>
+                          <p>Node.js</p>
+                      </div>
+                      <div className="card-skill">
+                      <img src="https://img.icons8.com/color/60/000000/google-logo.png" />
+                          <p>Google OAuth2</p>
+                      </div>
                       </div>
                       <hr />
                       <div className="github-live-links">
                         <a
-                          href="https://github.com/caitmp12/zen-project3-frontend"
+                          href="https://github.com/JGore99/vinyl-project"
                           target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
                         <a
-                          href="https://eloquent-newton-3f7527.netlify.app/"
+                          href="https://the-vinyl-project.herokuapp.com/"
                           target="_blank">
                           <i class="fas fa-globe-americas"></i>
                         </a>
@@ -211,23 +141,23 @@ const Index = ({ allMD }) => {
                       </div>
                       <hr />
                       <div className="tech-used">
-                        <div className="skill">
+                        <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/html-5.png" />
                           <p>HTML 5</p>
                         </div>
-                        <div className="skill">
+                        <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/css3.png" />
                           <p>CSS 3</p>
                         </div>
-                        <div className="skill">
+                        <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/javascript.png" />
                           <p>JavaScript</p>
                         </div>
-                        <div className="skill">
+                        <div className="card-skill">
                           <i class="devicon-express-original colored"></i>
                           <p>Express</p>
                         </div>
-                        <div className="skill">
+                        <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/mongodb.png" />
                           <p>MongoDB</p>
                         </div>
@@ -269,19 +199,19 @@ const Index = ({ allMD }) => {
                       </div>
                       <hr />
                       <div className="tech-used">
-                        <div className="skill">
+                        <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/html-5.png" />
                           <p>HTML 5</p>
                         </div>
-                        <div className="skill">
+                        <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/css3.png" />
                           <p>CSS 3</p>
                         </div>
-                        <div className="skill">
+                        <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/javascript.png" />
                           <p>JavaScript</p>
                         </div>
-                        <div className="skill">
+                        <div className="card-skill">
                           <img src="https://img.icons8.com/ios-filled/60/000000/jquery.png" />
                           <p>jQuery</p>
                         </div>
@@ -304,20 +234,83 @@ const Index = ({ allMD }) => {
                 </div>
               </div>
             </div>
+            <section id="skills">
+            <h3 className="title">SKILLS</h3>
+            <div className="skills-container">
+              <div className="skill">
+                <img src="https://img.icons8.com/color/72/000000/html-5.png" />
+                <p>HTML 5</p>
+              </div>
+              <div className="skill">
+                <img src="https://img.icons8.com/color/72/000000/css3.png" />
+                <p>CSS 3</p>
+              </div>
+              <div className="skill">
+                <img src="https://img.icons8.com/color/72/000000/javascript.png" />
+                <p>JavaScript</p>
+              </div>
+              <div className="skill">
+                <img src="https://img.icons8.com/fluency/72/000000/python.png" />
+                <p>Python</p>
+              </div>
+              <div className="skill">
+                <img src="https://img.icons8.com/color/72/000000/react-native.png" />
+                <p>React</p>
+              </div>
+              <div className="skill">
+              <img src="https://img.icons8.com/color/72/000000/bootstrap.png"/>
+                <p>Bootstrap</p>
+              </div>
+              <div className="skill">
+                <i class="devicon-nodejs-plain colored"></i>
+                <p>Node.js</p>
+              </div>
+              <div className="skill">
+                <i id="git" class="devicon-git-plain-wordmark colored"></i>
+                <p>git</p>
+              </div>
+              <div className="skill">
+                <img src="https://img.icons8.com/color/72/000000/mongodb.png" />
+                <p>MongoDB</p>
+              </div>
+              <div className="skill">
+                <img src="https://img.icons8.com/color/72/000000/postgreesql.png" />
+                <p>PostgreSQL</p>
+              </div>
+              <div className="skill">
+              <img className="skill-drk" src="https://img.icons8.com/ios/72/000000/django.png"/>
+                <p>Django</p>
+              </div>
+              <div className="skill">
+                <i class="devicon-express-original colored"></i>
+                <p>Express</p>
+              </div>
+              <div className="skill">
+                <img src="https://img.icons8.com/color/72/000000/java-web-token.png" />
+                <p>JWT Token</p>
+              </div>
+              <div className="skill">
+                <img src="https://img.icons8.com/color/72/000000/google-logo.png" />
+                <p>Google OAuth2</p>
+              </div>
+            </div>
+          </section>
+
+          <hr />
           </section>
           <section id="contact-info">
-            <h3 className="contact">CONTACT</h3>
+            <h3 className="contact">CONTACT:</h3>
               <a
-                href="https://www.linkedin.com/in/joshseckman/"
+                href="https://www.linkedin.com/in/jeffgore77/"
                 target="_blank">
                 <i class="fab fa-linkedin"></i>
               </a>
-              <a href="https://github.com/jseckman90" target="_blank">
+              <a href="https://github.com/JGore99" target="_blank">
                 <i class="fab fa-github"></i>
               </a>
               <div class="email-container"
                 style={{
-                  fontSize: "0.85rem",
+                  fontSize: "0.82rem",
                 }}>
                 <i class="far fa-envelope">: </i>
                 <h5 class="email">JefGore@gmail.com</h5>

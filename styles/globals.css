@@ -12,6 +12,18 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Rubik", sans-serif;
+  --bg-color-drk: rgb(14, 15, 17);
+  --border-cool: 1px rgb(30, 53, 156) solid;
+  --bg-color-drk1: rgb(27,27,27);
+  --bg-color-lte1: rgb(202, 202, 202);
+  --bg-grad-01: linear-gradient(180deg, rgba(27,27,27,1) 25%, rgba(0,0,0,0.7) 70%);
+  --bg-grad-02: linear-gradient(0deg, rgba(27,27,27,1) 65%, rgba(0,0,0,0.7) 90%);
+  --tx-drk: rgb(17,17,18);
+  --text-lte: rgb(146, 146, 146);
+  background: var(--bg-color-drk1);
+  background: var(--bg-grad-02);
+  color: var(--text-lte);
+
 }
 
 a {
@@ -24,8 +36,7 @@ a {
 }
 
 .title {
-  color: rgb(146, 146, 146);
-  font-family: 'Karla', sans-serif;
+  font-size: 1.3rem;
   margin: 20px;
 }
 
@@ -39,35 +50,47 @@ section h3 {
 }
 
 /* header */
-.navbar {
-  display: flex;
-  font-family: 'Karla', sans-serif;
-  justify-content: flex-end;
+
+.header-container {
+  background: var(--bg-color-drk1);
+  background: var(--bg-grad-01);
+  padding-top: 1rem;
+  border-bottom: var(--border-cool);
 }
+
+.header-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+
+.navbar {
+  font-family: 'Karla', sans-serif;
+  justify-content: flex-start;
+}
+
 .navbar-brand {
   font-weight: 700;
   font-size: 1.2em;
+  padding-right: 3rem;
 }
 
 .navbar-nav {
   font-weight: 200;
 }
 
-.nav-details {
-  padding-right: 1rem;
-}
-
 .jumbotron {
-  display: flex;
-  justify-content: center;
   background-color: rgb(34, 37, 41);
-  color: white;
+  color: var(--text-lte);
   padding: 10px;
 }
 
+
 #profile-img img {
-  /* border-radius: 50%; */
-  height: 250px;
+  height: 300px;
 }
 
 #about {
@@ -75,23 +98,59 @@ section h3 {
   background-color: rgb(34, 37, 41);
 }
 
-#about-me-text h3 {
-  color: rgb(146, 146, 146);
+.bio-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-lte);
+  font-family: 'Karla', sans-serif;
+}
+
+
+#about-me-text{
+  text-align: center;
   font-weight: 200;
 }
-#profile-img {
-  text-align: center;
-}
+
 
 /* SKILLS */
 .skills-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  padding: 0 4rem;
 }
 
 .skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   text-align: center;
+  margin: 0 .2rem;
+  width: 90px;
+}
+
+.skill-drk {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+}
+
+.skill img {
+  height: 2rem;
+  width: auto;
+  align-self: center;
+}
+
+.skill i {
+  font-size: 2.3rem;
+  margin-bottom: .2rem;
+  align-self: center;
+}
+
+.skill p {
+  color: var(--text-lte);
+  font-size: .8rem;
 }
 
 .colored {
@@ -103,17 +162,23 @@ section h3 {
 /* PROJECTS */
 
 #projects {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 .project-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  color: var(--tx-drk);
 }
 
-.card-text,
-.skill {
-  color: rgb(146, 146, 146);
+.card {
+  background-color: var(--bg-color-lte1);
+  /* border-bottom: var(--border-cool); */
+}
+
+.card-skill {
+  color: var(--tx-drk);
+  text-align: center;
 }
 
 .github-live-links {
@@ -159,22 +224,23 @@ section h3 {
 /* footer */
 
 footer {
-  background-color: rgb(34, 37, 41);
-  color: white;
+  background-color: var(--bg-color-drk1);
+  color: var(--text-lte);
   height: 5vh;
   text-align: center;
   padding: 0px;
 }
 
 #contact-info {
-  background-color: rgb(246, 246, 246);
+  background: var(--bg-color-drk1);
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  /* flex-direction: column; */
   text-align: center;
   padding: 5px;
+  margin:auto;
+  width: 70%;
 }
 
 .email-container {
@@ -189,7 +255,6 @@ footer {
 }
 
 .contact {
-  color: rgb(146, 146, 146);
   font-family: "Rubik", sans-serif;
   font-size: 1.4rem;
   padding: 0;
@@ -203,11 +268,105 @@ footer {
   margin: 0;
 }
 
+/* ----------------MEDIA---------------------- */
 
 @media only screen and (min-width: 992px) {
+
+  .header-container {
+    background-color: rgb(14, 15, 17);
+    padding: 1.5rem 3rem;
+    border-bottom: var(--border-cool);
+    box-shadow: 0px 2px 3px #000000;
+  }
+  
+  .header-grid {
+    display: grid;
+    grid-template-columns: 280px auto;
+    grid-template-rows: 20% auto;
+    height: 300px;
+  }
+  
+  .navbar {
+    display: flex;
+    font-family: 'Karla', sans-serif;
+    justify-content: flex-start;
+    align-items: flex-start;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    padding-top: 1.5rem;
+  }
+
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: .5rem 0 0 .5rem;
+  }
+  
+  .navbar-nav {
+    font-weight: 200;
+  }
+  
+  .nav-details {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+  }
+  
+/* SKILLS */
+
+  .skills-container {
+    padding: 0 4rem;
+  }
+  
+  .skill {
+    margin: 0 2rem;
+  }
+
+  .jumbotron {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 37, 41);
+    padding: 10px;
+  }
+  
+  .bio-card {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 1.5rem 0 0 .5rem;
+  }
+  
+  #profile-img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    height: 100%;
+  }
+
+  #profile-img img {
+    border-radius: 3%;
+  }
+  
   .nav-details {
     display: flex;
     justify-content: flex-end;
     padding-right: 2rem;
   }
+
+  #about-me-card {
+    align-items: flex-start;
+    padding-top: 1rem;
+  }
+
+  #about-me-text {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+#projects {
+  padding: 0 4rem;
+  /* margin: 0 25rem; */
 }
+
+}
+
