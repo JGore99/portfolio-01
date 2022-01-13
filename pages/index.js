@@ -26,7 +26,7 @@ const Index = ({ allMD }) => {
                     <div class="card-body">
                       <div>
                         <h3 class="card-title">Connect Four</h3>
-                        <p class="card-text">A browser based version of the classic game Connect Four. Designed to mimmic the box art from the 1980s, and to invoke the feelings and memories of playing this game as a child!</p>
+                        <p class="card-text">A browser based version of the classic game Connect Four. Designed to mimic the box art from the 1980s, and to invoke the feelings and memories of playing this game as a child!</p>
                       </div>
                       <hr />
                       <div className="tech-used">
