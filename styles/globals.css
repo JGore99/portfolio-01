@@ -19,7 +19,7 @@ body {
   --bg-grad-01: linear-gradient(180deg, rgba(27,27,27,1) 25%, rgba(0,0,0,0.7) 70%);
   --bg-grad-02: linear-gradient(0deg, rgba(27,27,27,1) 65%, rgba(0,0,0,0.7) 90%);
   --tx-drk: rgb(17,17,18);
-  --text-lte: rgb(160, 159, 159);
+  --text-lte: rgb(185, 185, 185);
   background: var(--bg-color-drk1);
   background: var(--bg-grad-02);
   color: var(--text-lte);
@@ -177,8 +177,7 @@ section h3 {
 }
 
 .card {
-  background-color: var(--bg-color-lte1);
-  /* border-bottom: var(--border-cool); */
+  background: var(--bg-color-lte1);
 }
 
 .card-skill {
@@ -235,6 +234,7 @@ footer {
   height: 5vh;
   text-align: center;
   padding: 0px;
+  border-top: var(--border-cool);
 }
 
 #contact-info {
@@ -245,7 +245,7 @@ footer {
   align-items: center;
   text-align: center;
   padding: 5px;
-  margin:auto;
+  margin: auto;
   width: 70%;
 }
 
@@ -268,9 +268,9 @@ footer {
 }
 
 .footer-text {
-  font-size: .8rem;
+  font-size: .7rem;
   height: 100%;
-  padding: 0;
+  padding-top: 10px;
   margin: 0;
 }
 
@@ -280,7 +280,7 @@ footer {
 
   .header-container {
     background-color: rgb(14, 15, 17);
-    padding: 2.5rem 3rem;
+    padding: 2.5rem 3rem 0 3rem;
     border-bottom: var(--border-cool);
     box-shadow: 0px 2px 3px #000000;
   }
@@ -289,7 +289,7 @@ footer {
     display: grid;
     grid-template-columns: 280px auto;
     grid-template-rows: 20% auto;
-    height: 300px;
+    height: auto;
   }
   
   .navbar {
@@ -369,6 +369,7 @@ footer {
     font-size: 1.1rem;
     font-weight: 500;
     text-align: left;
+    padding: 1rem 0;
   }
 
 #projects {
