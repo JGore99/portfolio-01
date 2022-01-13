@@ -53,14 +53,12 @@ const Header = () => {
             <img src="/images/portrait-02.png" alt="profile_pic" />
           </div>
           <div className="bio-card">
-                <h1 className="card-title">Jeff Gore</h1>
-                <h4>Full Stack Developer</h4>  
-                <h3 id="about-me-text" className="card-text">
-                  I'm a full-stack developer with a passion for writing
-                  clean, efficient code and creating a user-friendly
-                  experience
-                </h3>
-            </div>
+              <h1 className="card-title">Jeff Gore</h1>
+              <h4>Full Stack Developer</h4>  
+              <h3 id="about-me-text" className="card-text">
+              Having recently completed a 15 week software engineering intensive, I am eager to pair my background in architectural design engineering, project management, and art with my newly developed software engineering skills. With a strong work ethic that has often been noticed, and compliment throughout my career, an ability to work well with others, and refined sense of both time, and project management, I look forward to developing into an asset to my next team.
+              </h3>
+          </div>
         </div>
       </div>
     </header>

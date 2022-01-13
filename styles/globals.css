@@ -15,11 +15,11 @@ body {
   --bg-color-drk: rgb(14, 15, 17);
   --border-cool: 1px rgb(30, 53, 156) solid;
   --bg-color-drk1: rgb(27,27,27);
-  --bg-color-lte1: rgb(202, 202, 202);
+  --bg-color-lte1: rgb(223, 223, 223);
   --bg-grad-01: linear-gradient(180deg, rgba(27,27,27,1) 25%, rgba(0,0,0,0.7) 70%);
   --bg-grad-02: linear-gradient(0deg, rgba(27,27,27,1) 65%, rgba(0,0,0,0.7) 90%);
   --tx-drk: rgb(17,17,18);
-  --text-lte: rgb(146, 146, 146);
+  --text-lte: rgb(160, 159, 159);
   background: var(--bg-color-drk1);
   background: var(--bg-grad-02);
   color: var(--text-lte);
@@ -34,6 +34,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
 
 .title {
   font-size: 1.3rem;
@@ -54,16 +55,16 @@ section h3 {
 .header-container {
   background: var(--bg-color-drk1);
   background: var(--bg-grad-01);
-  padding-top: 1rem;
   border-bottom: var(--border-cool);
+  /* height: 100rem; */
 }
 
 .header-grid {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  height: auto;
+  /* height: auto; */
 }
 
 
@@ -107,9 +108,13 @@ section h3 {
 }
 
 
-#about-me-text{
+#about-me-text {
   text-align: center;
-  font-weight: 200;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.3rem;
+  letter-spacing: 1px;
+  padding: 0 1.2rem 1rem 1.2rem;
 }
 
 
@@ -127,8 +132,8 @@ section h3 {
   justify-content: flex-end;
   align-items: center;
   text-align: center;
-  margin: 0 .2rem;
-  width: 90px;
+  margin: 0 .1rem;
+  width: 75px;
 }
 
 .skill-drk {
@@ -150,7 +155,7 @@ section h3 {
 
 .skill p {
   color: var(--text-lte);
-  font-size: .8rem;
+  font-size: .7rem;
 }
 
 .colored {
@@ -187,6 +192,7 @@ section h3 {
 
 .tech-used {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .tech-used p {
@@ -249,13 +255,13 @@ footer {
 }
 
 .email {
-  font-size: 1.4rem;
+  font-family: 'Karla', sans-serif;
+  font-size: 1.1rem;
   padding: 0;
   margin: 0;
 }
 
 .contact {
-  font-family: "Rubik", sans-serif;
   font-size: 1.4rem;
   padding: 0;
   margin: 0;
@@ -274,7 +280,7 @@ footer {
 
   .header-container {
     background-color: rgb(14, 15, 17);
-    padding: 1.5rem 3rem;
+    padding: 2.5rem 3rem;
     border-bottom: var(--border-cool);
     box-shadow: 0px 2px 3px #000000;
   }
@@ -315,11 +321,12 @@ footer {
 /* SKILLS */
 
   .skills-container {
-    padding: 0 4rem;
+    padding: 0 0;
+    width: 100%
   }
   
   .skill {
-    margin: 0 2rem;
+    margin: 0 0;
   }
 
   .jumbotron {
@@ -359,7 +366,8 @@ footer {
   }
 
   #about-me-text {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
     text-align: left;
   }
 

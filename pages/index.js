@@ -125,7 +125,7 @@ const Index = ({ allMD }) => {
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <img
-                      src="/images/my_pantry_app.png"
+                      src="/images/invibe.png"
                       class="card-img"
                       alt="MyPantry"
                     />
@@ -133,10 +133,9 @@ const Index = ({ allMD }) => {
                   <div class="col-md-6">
                     <div class="card-body">
                       <div>
-                        <h3 class="card-title">MyPantry</h3>
+                        <h3 class="card-title">InVibe</h3>
                         <p class="card-text">
-                          Inventory your grocery items in your home and generate
-                          a grocery list
+                        Invibe is a full stack application that helps users explore cocktail bar options based on a location. Wether traveling to a new place, or just seeing what is nearby, Invibe uses the Yelp API to provide users with details and photos of the most popular cocktail bars. Users can pin bars to their profile, and then add comments, and reviews for others to see. Users can also follow friends to see their activity in the app.
                         </p>
                       </div>
                       <hr />
@@ -154,6 +153,10 @@ const Index = ({ allMD }) => {
                           <p>JavaScript</p>
                         </div>
                         <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/react-native.png" />
+                          <p>React</p>
+                        </div>
+                        <div className="card-skill">
                           <i class="devicon-express-original colored"></i>
                           <p>Express</p>
                         </div>
@@ -161,16 +164,20 @@ const Index = ({ allMD }) => {
                           <img src="https://img.icons8.com/color/60/000000/mongodb.png" />
                           <p>MongoDB</p>
                         </div>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/java-web-token.png" />
+                          <p>JWT Token</p>
+                        </div>
                       </div>
                       <hr />
                       <div className="github-live-links">
                         <a
-                          href="https://github.com/jseckman90/MyPantry"
+                          href="https://github.com/JGore99/invibe"
                           target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
                         <a
-                          href="https://jszenproject2.herokuapp.com/"
+                          href="https://invibe-tipsy-t.herokuapp.com/"
                           target="_blank">
                           <i class="fas fa-globe-americas"></i>
                         </a>
@@ -183,18 +190,17 @@ const Index = ({ allMD }) => {
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <img
-                      src="/images/msmh_app.png"
+                      src="/images/the_project_manager.png"
                       class="card-img"
-                      alt="Marvel Studios Movie Hub"
+                      alt="The Project Manager"
                     />
                   </div>
                   <div class="col-md-6">
                     <div class="card-body">
                       <div>
-                        <h3 class="card-title">Marvel Studios Movie Hub</h3>
+                        <h3 class="card-title">The Project Manager</h3>
                         <p class="card-text">
-                          Jump in and learn about the Marvel Cinematic Universe
-                          films{" "}
+                          The Project Manager is a task management, to do application. Users can create, edit, delete, and track projects. They can add specific tasks to each project, assign priority levels to those task, and mark them complete when ready. 
                         </p>
                       </div>
                       <hr />
@@ -212,19 +218,27 @@ const Index = ({ allMD }) => {
                           <p>JavaScript</p>
                         </div>
                         <div className="card-skill">
-                          <img src="https://img.icons8.com/ios-filled/60/000000/jquery.png" />
-                          <p>jQuery</p>
+                          <img src="https://img.icons8.com/color/60/000000/python.png" />
+                          <p>Python</p>
+                        </div>
+                        <div className="card-skill">
+                        <img src="https://img.icons8.com/color/60/000000/django.png" />
+                          <p>Django</p>
+                        </div>
+                        <div className="card-skill">
+                        <img src="https://img.icons8.com/color/60/000000/postgreesql.png" />
+                          <p>PostgreSQL</p>
                         </div>
                       </div>
                       <hr />
                       <div className="github-live-links">
                         <a
-                          href="https://github.com/jseckman90/Marvel-Studios-Movie-Hub"
+                          href="https://github.com/JGore99/The-Project-Manager"
                           target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
                         <a
-                          href="https://marvelstudiosmoviehub-orcin.vercel.app/"
+                          href="https://the-project-manager-01.herokuapp.com"
                           target="_blank">
                           <i class="fas fa-globe-americas"></i>
                         </a>
