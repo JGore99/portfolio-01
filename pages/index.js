@@ -309,8 +309,6 @@ const Index = ({ allMD }) => {
               </div>
             </div>
           </section>
-
-          <hr />
           </section>
           <section id="contact-info">
             <h3 className="contact">CONTACT:</h3>

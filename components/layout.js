@@ -14,11 +14,11 @@ export default function Layout({ children, pageTitle, ...props }) {
           content="Jeff Gore Portfolio"
         />
         <meta property="og:type" content="_" />
-        <meta
+        {/* <meta
           name="image"
           property="og:image"
           // content="https://i.imgur.com/sFHAfmG.png"
-        />
+        /> */}
         <meta
           name="description"
           property="og:description"
