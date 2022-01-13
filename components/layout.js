@@ -17,12 +17,12 @@ export default function Layout({ children, pageTitle, ...props }) {
         <meta
           name="image"
           property="og:image"
-          content="https://i.imgur.com/sFHAfmG.png"
+          // content="https://i.imgur.com/sFHAfmG.png"
         />
         <meta
           name="description"
           property="og:description"
-          content="Josh Seckman Portfolio"
+          content="Jeff Gore Portfolio"
         />
         <meta name="author" content="Jeff Gore" />
         <title>Jeff Gore | Full Stack Software Engineer</title>
