@@ -26,7 +26,7 @@ const Index = ({ allMD }) => {
                     <div class="card-body">
                       <div>
                         <h3 class="card-title">Connect Four</h3>
-                        <p class="card-text">A browser based version of the classic game Connect Four. Designed to mimic the box art from the 1980s, and to invoke the feelings and memories of playing this game as a child!</p>
+                        <p class="card-text">A browser based version of the classic game Connect Four. Designed to mimic the box art from the 1980s, to invoke feelings of nostalgia from playing this game as a child!</p>
                       </div>
                       <hr />
                       <div className="tech-used">
@@ -74,7 +74,7 @@ const Index = ({ allMD }) => {
                       <div>
                         <h3 class="card-title">The Vinyl Project</h3>
                         <p class="card-text">
-                        The Vinyl Project utilizes the Discogs API to create a full stack, social media application, focused on record collecting. Once users have created an account, they can search for, and add records to their collections. They can see track lists, and album art, thanks to the API. Users can leave comments and recommendations about records, and follow other user, to see what records they are collecting and enjoying. 
+                        The Vinyl Project utilizes the Discogs API to create a full-stack, social media application, focused on record collecting. Once users have created an account, they can search for, and add records to their collections. They can see track lists, and album art, thanks to the API. Users can leave comments and recommendations about records, and follow other user, to see what records they are collecting and enjoying. 
                         </p>
                       </div>
                       <hr />
@@ -135,7 +135,7 @@ const Index = ({ allMD }) => {
                       <div>
                         <h3 class="card-title">InVibe</h3>
                         <p class="card-text">
-                        Invibe is a full stack application that helps users explore cocktail bar options based on a location. Wether traveling to a new place, or just seeing what is nearby, Invibe uses the Yelp API to provide users with details and photos of the most popular cocktail bars. Users can pin bars to their profile, and then add comments, and reviews for others to see. Users can also follow friends to see their activity in the app.
+                        Invibe is a full-stack application that helps users explore cocktail bar options based on a location. Wether traveling to a new place, or just seeing what is nearby, Invibe uses the Yelp API to provide users with details and photos of the most popular cocktail bars. Users can pin bars to their profile, and then add comments, and reviews for others to see. Users can also follow friends to see their activity in the app.
                         </p>
                       </div>
                       <hr />
