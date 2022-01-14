@@ -14,7 +14,8 @@ body {
   font-family: "Rubik", sans-serif;
   --bg-color-drk: rgb(14, 15, 17);
   --border-cool: 1px rgb(30, 53, 156) solid;
-  --bg-color-drk1: rgb(27,27,27);
+  --border-drk: 1px rgb(37, 1, 1) solid;
+  --bg-color-drk1: rgb(0, 13, 83);
   --bg-color-lte1: rgb(223, 223, 223);
   --bg-grad-01: linear-gradient(180deg, rgba(27,27,27,1) 25%, rgba(0,0,0,0.7) 70%);
   --bg-grad-02: linear-gradient(0deg, rgba(27,27,27,1) 65%, rgba(0,0,0,0.7) 90%);
@@ -214,7 +215,7 @@ section h3 {
   padding: 25px;
 }
 .card-img {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .fa-linkedin,
@@ -319,64 +320,68 @@ footer {
     padding-right: 1rem;
   }
   
-/* SKILLS */
+  /* SKILLS */
 
-  .skills-container {
-    padding: 0 0;
-    width: 100%
-  }
-  
-  .skill {
-    margin: 0 0;
+    .skills-container {
+      padding: 0 0;
+      width: 100%
+    }
+    
+    .skill {
+      margin: 0 0;
+    }
+
+    .jumbotron {
+      display: flex;
+      justify-content: center;
+      background-color: rgb(34, 37, 41);
+      padding: 10px;
+    }
+    
+    .bio-card {
+      grid-column: 2 / 3;
+      grid-row: 2 / 3;
+      justify-content: flex-end;
+      align-items: flex-start;
+      padding: 1.5rem 0 0 .5rem;
+    }
+    
+    #profile-img {
+      grid-column: 1 / 2;
+      grid-row: 1 / 3;
+      height: 100%;
+    }
+
+    #profile-img img {
+      border-radius: 3%;
+    }
+    
+    .nav-details {
+      display: flex;
+      justify-content: flex-end;
+      padding-right: 2rem;
+    }
+
+    #about-me-card {
+      align-items: flex-start;
+      padding-top: 1rem;
+    }
+
+    #about-me-text {
+      font-size: 1.1rem;
+      font-weight: 500;
+      text-align: left;
+      padding: 1rem 0;
+    }
+
+  #projects {
+    padding: 0 4rem;
+    /* margin: 0 25rem; */
   }
 
-  .jumbotron {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(34, 37, 41);
-    padding: 10px;
+  .card-img:hover {
+    border: var(--border-drk);
   }
-  
-  .bio-card {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 1.5rem 0 0 .5rem;
-  }
-  
-  #profile-img {
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
-    height: 100%;
-  }
-
-  #profile-img img {
-    border-radius: 3%;
-  }
-  
-  .nav-details {
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 2rem;
-  }
-
-  #about-me-card {
-    align-items: flex-start;
-    padding-top: 1rem;
-  }
-
-  #about-me-text {
-    font-size: 1.1rem;
-    font-weight: 500;
-    text-align: left;
-    padding: 1rem 0;
-  }
-
-#projects {
-  padding: 0 4rem;
-  /* margin: 0 25rem; */
-}
 
 }
 

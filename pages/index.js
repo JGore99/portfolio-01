@@ -16,11 +16,15 @@ const Index = ({ allMD }) => {
               <div class="card mb-4">
                 <div class="row no-gutters">
                   <div class="col-md-6">
-                    <img
-                      src="/images/connect_four_01.png"
-                      class="card-img"
-                      alt="Connect Four"
-                    />
+                    <a 
+                      href="https://jgore99.github.io/connect-four/"
+                      target="_blank">
+                      <img
+                        src="/images/connect_four_01.png"
+                        class="card-img"
+                        alt="Connect Four"
+                      />
+                    </a> 
                   </div>
                   <div class="col-md-6">
                     <div class="card-body">
@@ -50,11 +54,6 @@ const Index = ({ allMD }) => {
                           target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
-                        <a
-                          href="https://jgore99.github.io/connect-four/"
-                          target="_blank">
-                          <i class="fas fa-globe-americas"></i>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -63,18 +62,23 @@ const Index = ({ allMD }) => {
               <div class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-6">
-                    <img
+                    <a 
+                      href="https://the-vinyl-project.herokuapp.com/"
+                      target="_blank">
+                      <img
                       src="/images/the_vinyl_project.png"
                       class="card-img"
                       alt="The Vinyl Project"
-                    />
+                      />
+                    </a> 
+                    
                   </div>
                   <div class="col-md-6">
                     <div class="card-body">
                       <div>
                         <h3 class="card-title">The Vinyl Project</h3>
                         <p class="card-text">
-                        The Vinyl Project utilizes the Discogs API to create a full-stack, social media application, focused on record collecting. Once users have created an account, they can search for, and add records to their collections. They can see track lists, and album art, thanks to the API. Users can leave comments and recommendations about records, and follow other user, to see what records they are collecting and enjoying. 
+                        The Vinyl Project is a full CRUD, MEN stack application utilizing the Discogs music API. This social media application creates a place for record collectors to find, favorite, and share their albums. Thanks to the API, users can see album covers and tracklists for an enhanced experience. Users can leave comments and recommendations for followers to see.
                         </p>
                       </div>
                       <hr />
@@ -111,11 +115,6 @@ const Index = ({ allMD }) => {
                           target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
-                        <a
-                          href="https://the-vinyl-project.herokuapp.com/"
-                          target="_blank">
-                          <i class="fas fa-globe-americas"></i>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -124,11 +123,15 @@ const Index = ({ allMD }) => {
               <div class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-6">
-                    <img
+                    <a 
+                      href="https://invibe-tipsy-t.herokuapp.com/"
+                      target="_blank">
+                      <img
                       src="/images/invibe.png"
                       class="card-img"
-                      alt="MyPantry"
+                      alt="InVibe"
                     />
+                    </a> 
                   </div>
                   <div class="col-md-6">
                     <div class="card-body">
@@ -176,11 +179,6 @@ const Index = ({ allMD }) => {
                           target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
-                        <a
-                          href="https://invibe-tipsy-t.herokuapp.com/"
-                          target="_blank">
-                          <i class="fas fa-globe-americas"></i>
-                        </a>
                       </div>
                     </div>
                   </div>
@@ -189,11 +187,15 @@ const Index = ({ allMD }) => {
               <div class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-6">
-                    <img
+                    <a 
+                      href="https://the-project-manager-01.herokuapp.com"
+                      target="_blank">
+                      <img
                       src="/images/the_project_manager.png"
                       class="card-img"
                       alt="The Project Manager"
-                    />
+                      />
+                    </a> 
                   </div>
                   <div class="col-md-6">
                     <div class="card-body">
@@ -236,11 +238,6 @@ const Index = ({ allMD }) => {
                           href="https://github.com/JGore99/The-Project-Manager"
                           target="_blank">
                           <i class="fab fa-github"></i>
-                        </a>
-                        <a
-                          href="https://the-project-manager-01.herokuapp.com"
-                          target="_blank">
-                          <i class="fas fa-globe-americas"></i>
                         </a>
                       </div>
                     </div>

@@ -56,7 +56,7 @@ const Header = () => {
               <h1 className="card-title">Jeff Gore</h1>
               <h4>Full-Stack Developer</h4>  
               <h3 id="about-me-text" className="card-text">
-              Creative and hardworking software engineer with a background in architectural design, project management, and art. An effective leader and collaborator who enjoys problem-solving and developing clever/esthetically pleasing solutions.
+              A creative and hardworking software engineer with a background in architectural design, project management, and art. An effective leader and collaborator who enjoys problem-solving and developing clever/esthetically pleasing solutions.
               </h3>
           </div>
         </div>
