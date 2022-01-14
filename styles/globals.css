@@ -15,7 +15,7 @@ body {
   --bg-color-drk: rgb(14, 15, 17);
   --border-cool: 1px rgb(30, 53, 156) solid;
   --border-drk: 1px rgb(37, 1, 1) solid;
-  --bg-color-drk1: rgb(0, 13, 83);
+  --bg-color-drk1: rgb(14, 15, 17);
   --bg-color-lte1: rgb(223, 223, 223);
   --bg-grad-01: linear-gradient(180deg, rgba(27,27,27,1) 25%, rgba(0,0,0,0.7) 70%);
   --bg-grad-02: linear-gradient(0deg, rgba(27,27,27,1) 65%, rgba(0,0,0,0.7) 90%);
@@ -232,14 +232,14 @@ section h3 {
 footer {
   background-color: var(--bg-color-drk1);
   color: var(--text-lte);
-  height: 5vh;
+  height: 3vh;
   text-align: center;
   padding: 0px;
   border-top: var(--border-cool);
 }
 
 #contact-info {
-  background: var(--bg-color-drk1);
+  /* background: var(--bg-color-drk1); */
   border-top: var(--border-cool);
   display: flex;
   flex-wrap: wrap;
