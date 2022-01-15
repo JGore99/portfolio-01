@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <div id="contact-info">
+      <div id="contact">
             <h3 className="contact">CONTACT:</h3>
               <a
                 href="https://www.linkedin.com/in/jeffgore77/"

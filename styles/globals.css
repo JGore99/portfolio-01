@@ -238,7 +238,7 @@ footer {
   border-top: var(--border-cool);
 }
 
-#contact-info {
+#contact {
   /* background: var(--bg-color-drk1); */
   display: flex;
   flex-wrap: wrap;
