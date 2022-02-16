@@ -13,52 +13,6 @@ const Index = ({ allMD }) => {
           <section id="projects">
             <h3 className="title">PROJECTS</h3>
             <div className="project-container">
-              <div class="card mb-4">
-                <div class="row no-gutters">
-                  <div class="col-md-6">
-                    <a 
-                      href="https://jgore99.github.io/connect-four/"
-                      target="_blank">
-                      <img
-                        src="/images/connect_four_01.png"
-                        class="card-img"
-                        alt="Connect Four"
-                      />
-                    </a> 
-                  </div>
-                  <div class="col-md-6">
-                    <div class="card-body">
-                      <div>
-                        <h3 class="card-title">Connect Four</h3>
-                        <p class="card-text">A browser based version of the classic game Connect Four. Designed to mimic the box art from the 1980s, to invoke feelings of nostalgia from playing this game as a child!</p>
-                      </div>
-                      <hr />
-                      <div className="tech-used">
-                        <div className="card-skill">
-                          <img src="https://img.icons8.com/color/60/000000/html-5.png"/>
-                          <p>HTML 5</p>
-                        </div>
-                        <div className="card-skill">
-                          <img src="https://img.icons8.com/color/60/000000/javascript.png" />
-                          <p>JavaScript</p>
-                        </div>
-                        <div className="card-skill">
-                          <img src="https://img.icons8.com/color/60/000000/css3.png"/>
-                          <p>CSS 3</p>
-                        </div>
-                      </div>
-                      <hr />
-                      <div className="github-live-links">
-                        <a
-                          href="https://github.com/JGore99/connect-four"
-                          target="_blank">
-                          <i class="fab fa-github"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <div class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-6">
@@ -176,6 +130,52 @@ const Index = ({ allMD }) => {
                       <div className="github-live-links">
                         <a
                           href="https://github.com/JGore99/invibe"
+                          target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-4">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <a 
+                      href="https://jgore99.github.io/connect-four/"
+                      target="_blank">
+                      <img
+                        src="/images/connect_four_01.png"
+                        class="card-img"
+                        alt="Connect Four"
+                      />
+                    </a> 
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <div>
+                        <h3 class="card-title">Connect Four</h3>
+                        <p class="card-text">A browser based version of the classic game Connect Four. Designed to mimic the box art from the 1980s, to invoke feelings of nostalgia from playing this game as a child!</p>
+                      </div>
+                      <hr />
+                      <div className="tech-used">
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/html-5.png"/>
+                          <p>HTML 5</p>
+                        </div>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/javascript.png" />
+                          <p>JavaScript</p>
+                        </div>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/css3.png"/>
+                          <p>CSS 3</p>
+                        </div>
+                      </div>
+                      <hr />
+                      <div className="github-live-links">
+                        <a
+                          href="https://github.com/JGore99/connect-four"
                           target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
