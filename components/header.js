@@ -5,9 +5,9 @@ const Header = () => {
         <div className="header-grid">
           <nav className="navbar navbar-expand-lg navbar-dark">
             <div className="nav-details">
-              <a className="navbar-brand" href="/">
+              {/* <a className="navbar-brand" href="/">
                 Jeff Gore
-              </a>
+              </a> */}
               <button
                 className="navbar-toggler"
                 type="button"
