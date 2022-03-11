@@ -48,9 +48,9 @@ const Header = () => {
             <img src="/images/portrait-02.png" alt="profile_pic" />
           </div>
           <div className="bio-card">
-              <h1 className="card-title">Jeff Gore</h1>
+              <h1 id="me" className="card-title">Jeff Gore</h1>
               <h4>Software Engineer | Designer</h4>  
-              <h3 id="about-me-text" className="card-text">
+              <h3 id="about-me-text" >
               A creative and hardworking software engineer with a background in architectural design, project management, and art. An effective leader and collaborator who enjoys problem-solving and developing clever/esthetically pleasing solutions.
               </h3>
           </div>

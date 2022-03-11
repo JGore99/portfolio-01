@@ -13,6 +13,59 @@ const Index = ({ allMD }) => {
           <section id="projects">
             <h3 className="title">PROJECTS</h3>
             <div className="project-container">
+            <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <a 
+                      href="https://the-alayna-obsession.herokuapp.com/"
+                      target="_blank">
+                      <img
+                      src="/images/the_alayna_obsession.png"
+                      class="card-img"
+                      alt="The Alayna Obsession"
+                      />
+                    </a> 
+                    <h5>click image to visit site</h5>
+                  </div>
+                  <div class="col-md-6 project-image">
+                    <div class="card-body">
+                      <div>
+                        <h3 class="card-title">The Alayna Obsession</h3>
+                        <p class="card-text">
+                        The Alayna Obsession is a project built to showcase front-end design and mobile responsiveness. This project has many features like a slideshow, modals, and a hamburger responsive navbar, all done in React, and vanilla CSS. 
+                        </p>
+                      </div>
+                      <hr />
+                      <div className="tech-used">
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/html-5.png" />
+                          <p>HTML 5</p>
+                        </div>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/javascript.png" />
+                          <p>JavaScript</p>
+                        </div>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/react-native.png" />
+                          <p>React</p>
+                        </div>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/css3.png" />
+                          <p>CSS 3</p>
+                        </div>
+                      </div>
+                      <hr />
+                      <div className="github-live-links">
+                        <a
+                          href="https://github.com/JGore99/alayna-obsessed"
+                          target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-6">
@@ -25,9 +78,9 @@ const Index = ({ allMD }) => {
                       alt="The Vinyl Project"
                       />
                     </a> 
-                    
+                    <h5>click image to visit site</h5>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 project-image">
                     <div class="card-body">
                       <div>
                         <h3 class="card-title">The Vinyl Project</h3>
@@ -86,8 +139,9 @@ const Index = ({ allMD }) => {
                       alt="InVibe"
                     />
                     </a> 
+                    <h5>click image to visit site</h5>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 project-image">
                     <div class="card-body">
                       <div>
                         <h3 class="card-title">InVibe</h3>
@@ -102,16 +156,16 @@ const Index = ({ allMD }) => {
                           <p>HTML 5</p>
                         </div>
                         <div className="card-skill">
-                          <img src="https://img.icons8.com/color/60/000000/css3.png" />
-                          <p>CSS 3</p>
-                        </div>
-                        <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/javascript.png" />
                           <p>JavaScript</p>
                         </div>
                         <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/react-native.png" />
                           <p>React</p>
+                        </div>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/css3.png" />
+                          <p>CSS 3</p>
                         </div>
                         <div className="card-skill">
                           <i class="devicon-express-original colored"></i>
@@ -150,8 +204,9 @@ const Index = ({ allMD }) => {
                         alt="Connect Four"
                       />
                     </a> 
+                    <h5>click image to visit site</h5>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 project-image">
                     <div class="card-body">
                       <div>
                         <h3 class="card-title">Connect Four</h3>
@@ -196,8 +251,9 @@ const Index = ({ allMD }) => {
                       alt="The Project Manager"
                       />
                     </a> 
+                    <h5>click image to visit site</h5>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 project-image">
                     <div class="card-body">
                       <div>
                         <h3 class="card-title">The Project Manager</h3>
