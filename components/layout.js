@@ -25,7 +25,7 @@ export default function Layout({ children, pageTitle, ...props }) {
           content="Jeff Gore Portfolio"
         />
         <meta name="author" content="Jeff Gore" />
-        <title>Jeff Gore | Full Stack Software Engineer</title>
+        <title>Jeff Gore | Front End Software Engineer</title>
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
           rel="stylesheet"
