@@ -179,7 +179,7 @@ const Index = ({ allMD }) => {
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <a 
-                      href="https://invibe-tipsy-t.herokuapp.com/"
+                      href="https:/invibe-cocktail-guide.herokuapp.com/"
                       target="_blank">
                       <img
                       src="/images/invibe.png"
@@ -400,3 +400,5 @@ export async function getStaticProps() {
     },
   };
 }
+
+// npm run dev
