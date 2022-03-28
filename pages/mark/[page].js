@@ -3,6 +3,11 @@ import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 
 import Layout from '../../components/layout'
+import ReactGA from 'react-ga'
+
+ReactGA.initialize('G-FT9LFFJKY4')
+ReactGA.pageview(window.location.pathname + window.location.search)
+
 
 export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
   if (!frontmatter) return <></>
