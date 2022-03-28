@@ -3,10 +3,7 @@ import matter from 'gray-matter'
 import ReactMarkdown from 'react-markdown'
 
 import Layout from '../../components/layout'
-import ReactGA from 'react-ga'
-
-ReactGA.initialize('G-FT9LFFJKY4')
-ReactGA.pageview(window.location.pathname + window.location.search)
+import Script from 'next/script'
 
 
 export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
@@ -14,6 +11,15 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
 
   return (
       <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
+        {/* Global site tag (gtag.js) - Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FT9LFFJKY4"></script>
+        <script>
+          window.dataLayer = window.dataLayer || []
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-FT9LFFJKY4')
+        </script>
         <Link href="/">
           <a>Back to post list</a>
         </Link>
