@@ -51,7 +51,7 @@ const Index = ({ allMD }) => {
                         </div>
                         <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/css3.png" />
-                          <p>CSS 3</p>
+                          <p>CSS3</p>
                         </div>
                       </div>
                       <hr />
@@ -160,7 +160,7 @@ const Index = ({ allMD }) => {
                         </div>
                         <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/css3.png"/>
-                          <p>CSS 3</p>
+                          <p>CSS3</p>
                         </div>
                       </div>
                       <hr />
@@ -213,7 +213,7 @@ const Index = ({ allMD }) => {
                         </div>
                         <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/css3.png" />
-                          <p>CSS 3</p>
+                          <p>CSS3</p>
                         </div>
                         <div className="card-skill">
                           <i class="devicon-express-original colored"></i>
@@ -270,7 +270,7 @@ const Index = ({ allMD }) => {
                         </div>
                         <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/css3.png" />
-                          <p>CSS 3</p>
+                          <p>CSS3</p>
                         </div>
                         <div className="card-skill">
                           <img src="https://img.icons8.com/color/60/000000/javascript.png" />
@@ -311,7 +311,7 @@ const Index = ({ allMD }) => {
               </div>
               <div className="skill">
                 <img src="https://img.icons8.com/color/72/000000/css3.png" />
-                <p>CSS 3</p>
+                <p>CSS3</p>
               </div>
               <div className="skill">
                 <img src="https://img.icons8.com/color/72/000000/javascript.png" />
