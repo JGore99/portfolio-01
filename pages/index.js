@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import Layout from "../components/layout";
 import MDList from "../components/MDList";
 import matter from "gray-matter";
-import ReactMarkdown from "react-markdown";
+// import ReactMarkdown from "react-markdown";
 
 const Index = ({ allMD }) => {
   return (
