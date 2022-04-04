@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import matter from 'gray-matter'
-import ReactMarkdown from 'react-markdown'
+// import ReactMarkdown from 'react-markdown'
 
 import Layout from '../../components/layout'
 
@@ -16,7 +16,7 @@ export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
           <h1>{frontmatter.title}</h1>
           <p>By {frontmatter.author}</p>
           <div>
-            <ReactMarkdown source={markdownBody} />
+            {/* <ReactMarkdown source={markdownBody} /> */}
           </div>
         </article>
       </Layout>
