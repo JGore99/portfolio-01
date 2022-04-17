@@ -231,7 +231,7 @@ const Index = ({ allMD }) => {
                       <hr />
                       <div className="github-live-links">
                         <a
-                          href="https://github.com/JGore99/invibe"
+                          href="https://invibe-cocktail-guide.herokuapp.com/"
                           target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
