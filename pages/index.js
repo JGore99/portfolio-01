@@ -179,7 +179,7 @@ const Index = ({ allMD }) => {
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <a 
-                      href="https:/invibe-cocktail-guide.herokuapp.com/"
+                      href="https://invibe-cocktail-guide.herokuapp.com/"
                       target="_blank">
                       <img
                       src="/images/invibe.png"
@@ -231,7 +231,7 @@ const Index = ({ allMD }) => {
                       <hr />
                       <div className="github-live-links">
                         <a
-                          href="https://invibe-cocktail-guide.herokuapp.com/"
+                          href="https://github.com/JGore99/invibe"
                           target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
