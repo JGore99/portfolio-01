@@ -13,7 +13,99 @@ const Index = ({ allMD }) => {
           <section id="projects">
             <h3 className="title">PROJECTS</h3>
             <div className="project-container">
-            <div class="card mb-3">
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <a 
+                      href="https://www.charlottenc.gov/Home"
+                      target="_blank">
+                      <img
+                      src="/images/charlotte.png"
+                      class="card-img"
+                      alt="City of Charlotte"
+                      />
+                    </a> 
+                    <h5>click image to visit site</h5>
+                  </div>
+                  <div class="col-md-6 project-image">
+                    <div class="card-body">
+                      <div>
+                        <h3 class="card-title">City of Charlotte NC</h3>
+                        <p class="card-text">
+                        A civic engagement platform for the city of Charlotte NC. Using custom CSS, jQuery, and creative problem-solving to bridge the available features of a proprietary CMS platform over to the approved design of our client. 
+                        </p>
+                      </div>
+                      <hr />
+                      <div className="tech-used">
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/html-5.png" />
+                          <p>HTML 5</p>
+                        </div>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/javascript.png" />
+                          <p>JavaScript</p>
+                        </div>
+                        <div className="card-skill jquery">
+                          <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/>
+                          <p>jQuery</p>
+                        </div>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/css3.png" />
+                          <p>CSS3</p>
+                        </div>
+                      </div>
+                      <hr />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <a 
+                      href="https://www.pinecrest-fl.gov/Home"
+                      target="_blank">
+                      <img
+                      src="/images/pinecrest.png"
+                      class="card-img"
+                      alt="Village of Pinecrest"
+                      />
+                    </a> 
+                    <h5>click image to visit site</h5>
+                  </div>
+                  <div class="col-md-6 project-image">
+                    <div class="card-body">
+                      <div>
+                        <h3 class="card-title">Village of Pinecrest FL</h3>
+                        <p class="card-text">
+                        A civic engagement platform for the Village of Pinecrest FL. Using custom CSS, jQuery, and creative problem-solving to bridge the available features of a proprietary CMS platform over to the approved design of our client. 
+                        </p>
+                      </div>
+                      <hr />
+                      <div className="tech-used">
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/html-5.png" />
+                          <p>HTML 5</p>
+                        </div>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/javascript.png" />
+                          <p>JavaScript</p>
+                        </div>
+                        <div className="card-skill jquery">
+                          <img src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/>
+                          <p>jQuery</p>
+                        </div>
+                        <div className="card-skill">
+                          <img src="https://img.icons8.com/color/60/000000/css3.png" />
+                          <p>CSS3</p>
+                        </div>
+                      </div>
+                      <hr />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <a 
@@ -127,7 +219,6 @@ const Index = ({ allMD }) => {
                   </div>
                 </div>
               </div>
-              
               <div class="card mb-4">
                 <div class="row no-gutters">
                   <div class="col-md-6">
@@ -175,7 +266,7 @@ const Index = ({ allMD }) => {
                   </div>
                 </div>
               </div>
-              <div class="card mb-3">
+             {/*<div class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <a 
@@ -300,7 +391,7 @@ const Index = ({ allMD }) => {
                     </div>
                   </div>
                 </div>
-              </div>
+                </div> */}
             </div>
             <section id="skills">
             <h3 className="title">SKILLS</h3>

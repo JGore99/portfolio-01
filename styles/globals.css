@@ -204,6 +204,11 @@ section h3 {
   text-align: center;
 }
 
+.jquery img {
+  padding: 5px 0 5px 0;
+  
+}
+
 .github-live-links {
   text-align: center;
 }
@@ -428,5 +433,12 @@ footer {
 
   #contact {
     width: 60%;
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .skills-container {
+    justify-content: center;
   }
 }
