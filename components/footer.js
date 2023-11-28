@@ -19,7 +19,7 @@ const Footer = () => {
                 <h5 class="email">JefGore@gmail.com</h5>
               </div>
           </div>
-      <p class="footer-text">© 2022 Jeffrey Gore. All rights reserved.</p>
+      <p class="footer-text">© 2023 Jeffrey Gore. All rights reserved.</p>
     </footer>
   );
 };
